@@ -40,7 +40,7 @@ O projeto é composto pelos seguintes arquivos principais:
 1. Clone o repositório do projeto:
    ```sh
    git clone https://github.com/PedroHenriqueFAS/Temporizador_Periodico
-   cd pio_matrix
+   cd Temporizador_Periodico
    ```
 2. Crie um diretório de build e entre nele:
    ```sh
