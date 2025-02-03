@@ -8,14 +8,14 @@ Este projeto implementa um semáforo utilizando o Raspberry Pi Pico e LEDs. O pr
 
 O código utiliza um temporizador repetitivo para alternar os LEDs, representando o ciclo de um semáforo:
 
--Vermelho aceso por 3 segundos
--Amarelo aceso por 3 segundos
+-Vermelho aceso por 3 segundos\
+-Amarelo aceso por 3 segundos\
 -Verde aceso por 3 segundos
 
 Os LEDs são controlados pelos pinos GPIO do Raspberry Pi Pico:
 
--Pino 11: LED Vermelho
--Pino 12: LED Amarelo
+-Pino 11: LED Vermelho\
+-Pino 12: LED Amarelo\
 -Pino 13: LED Verde
 
 A cada ciclo, a função repeating_timer_callback é chamada para atualizar o estado dos LEDs.
