@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "author": "Pedro Henrique F. Amorim",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": -70.45,
+      "left": 22.75,
+      "attrs": { "builder": "pico-sdk" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 6,
+      "left": -188.2,
+      "attrs": { "color": "Red", "flip": "" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 42.35,
+      "left": -124.8,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text2",
+      "top": -115.2,
+      "left": -86.4,
+      "attrs": { "text": "Raspberry Pi Pico" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 44.4,
+      "left": -188.2,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": 82.8,
+      "left": -188.2,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 80.75,
+      "left": -124.8,
+      "attrs": { "value": "330" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": 119.15,
+      "left": -124.8,
+      "attrs": { "value": "330" }
+    }
+  ],
+  "connections": [
+    [ "led1:A", "r1:1", "green", [ "v0" ] ],
+    [ "r1:2", "pico:GP11", "green", [ "h46.8", "v38.4" ] ],
+    [ "led2:A", "r2:1", "green", [ "h19.2", "v9.6" ] ],
+    [ "r2:2", "pico:GP12", "green", [ "v0" ] ],
+    [ "led3:A", "r3:1", "green", [ "v0" ] ],
+    [ "r3:2", "pico:GP13", "green", [ "h46.8", "v-19.24" ] ],
+    [ "led1:C", "pico:GND.2", "green", [ "h-28.4", "v-38.4", "h230.4" ] ],
+    [ "led2:C", "pico:GND.2", "green", [ "h-28.4", "v-76.8" ] ],
+    [ "led3:C", "pico:GND.2", "green", [ "h-28.4", "v-115.2" ] ]
+  ],
+  "dependencies": {}
+}
