@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/Temporizador_Periodico.hex'
+elf = 'build/Temporizador_Periodico.elf'
