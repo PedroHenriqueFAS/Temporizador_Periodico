@@ -30,7 +30,9 @@ O projeto é composto pelos seguintes arquivos principais:
 
 ## 🛠️ Requisitos
 
-- Raspberry Pi Pico
+- Raspberry Pi Pico W
+- 03 LEDs (Azul - GPIO 11, Vermelho - GPIO 12, Verde - GPIO 13)
+- 03 Resistores de 330 Ω
 - SDK do Pico instalado
 - CMake
 - Compilador compatível com C e C++
