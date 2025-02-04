@@ -1,4 +1,4 @@
-# Projeto: Temporizador_Periodico
+# Projeto: Temporizador_Periódico
 
 ## 📝 Sobre o Projeto
 
@@ -26,7 +26,7 @@ O projeto é composto pelos seguintes arquivos principais:
 
 - `Temporizador_Periodico.c`: Contém a lógica principal do sistema.
 - `CMakeLists.txt`: Arquivo de configuração do CMake para compilação do projeto.
-- `pio_matrix.pio.h`: Arquivo gerado a partir do código PIO utilizado para o controle dos LEDs.
+- `diagram.json`: Arquivo utilizado para simular o hardware.
 
 ## 🛠️ Requisitos
 
